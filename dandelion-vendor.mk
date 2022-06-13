@@ -10,9 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/dandelion/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/xiaomi/dandelion/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/xiaomi/dandelion/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
-    vendor/xiaomi/dandelion/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
-    vendor/xiaomi/dandelion/proprietary/framework/mediatek-wfo-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-wfo-legacy.jar \
     vendor/xiaomi/dandelion/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
     vendor/xiaomi/dandelion/proprietary/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_audio_jni.so \
     vendor/xiaomi/dandelion/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
@@ -38,12 +35,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 
 PRODUCT_PACKAGES += \
-    EngineerMode \
-    ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    EngineerMode
